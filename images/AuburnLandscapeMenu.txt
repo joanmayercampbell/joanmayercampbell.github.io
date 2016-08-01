@@ -1,0 +1,24 @@
+                                                       
+
+
+                             Auburn Landscape, Inc.
+
+
+
+
+
+                               1 - Dailylog
+
+                               2 - Bill Generator
+
+                               3 - Deposits
+
+                               4 - Reports
+
+                               5 - History
+
+                               6 - Exit
+
+
+                             Enter option:
+

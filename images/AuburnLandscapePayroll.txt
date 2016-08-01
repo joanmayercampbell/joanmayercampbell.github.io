@@ -1,0 +1,24 @@
+                                                       
+
+
+                             Auburn Landscape, Inc.
+
+                                    Payroll
+
+
+
+                               1 - Data Entry
+
+                               2 - Check Stub
+
+                               3 - Payroll Report
+
+                               4 - Cost Analysis
+
+                               5 - dbase prompt
+
+                               6 - Exit
+
+
+                             Enter option:
+
