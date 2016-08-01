@@ -31,3 +31,8 @@
 #topmargin {
     margin-top:125px;
 }
+
+#tableHeading {
+    font-size:26px;
+    text-emphasis:double-circle;
+}
