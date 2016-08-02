@@ -42,5 +42,85 @@
 
 #tableHeading {
     font-size:26px;
-    text-emphasis:double-circle;
+    text-decoration:underline;
+}
+
+.boldHeader !important {
+    font-weight:bolder;
+}
+
+.boxPopup {
+  width:25%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 0;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: left;
+}
+
+.buttonPopup {
+  font-size: 1em;
+  padding: 2px;
+  color: blue;
+  border: 2px solid orange;
+  border-radius: 30px/70px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.buttonPopup:hover {
+  background: orange;
+}
+
+.overlay {
+  position:absolute;  
+  top: 150px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:75%;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index:1100;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width:80%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: orange;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
 }
